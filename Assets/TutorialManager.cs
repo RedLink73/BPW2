@@ -67,6 +67,16 @@ public class TutorialManager : MonoBehaviour
             }
         }
 
+        else if (popUpIndex == 4)
+        {
+            if (Input.anyKeyDown)
+            {
+                Debug.Log(popUpIndex);
+
+                popUpIndex++;
+            }
+        }
+
 
     }
 }
